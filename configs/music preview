@@ -1,0 +1,32 @@
+{
+  "animation_mode": "2D",
+  "video_init_path": "12e33be41a854fa2a6f6a4a685345f9a.mp4",
+  "video_init_seed_behavior": "fixed",
+  "strength": 0.45,
+  "steps": 20,
+  "cfg_scale": 6.5,
+  "sampler": "Euler a",
+  "fps": 24,
+  "max_frames": 1440,
+  "frame_start": 2880,
+  "frame_end": 4320,
+  "color_coherence": "Match Frame 0 LAB",
+  "output_resolution": "1920x1080",
+  "music_path": "your_audio_track.mp3",
+  "prompt": "soft pencil sketch, hand-drawn animation, small town fields, boy and girl together, black and white, gentle shading, subtle motion, romantic tone, cinematic, synchronized to beat",
+  "negative_prompt": "harsh outlines, bright colors, digital artifacts, glitch, distortion",
+  "seed": 42,
+  "motion_parameters": {
+    "translation_x": "0:(sin(t/12)*2)",
+    "translation_y": "0:(cos(t/14)*1.5)",
+    "zoom": "0:(1+0.0003*t)",
+    "angle": "0:(sin(t/24)*0.5)"
+  },
+  "rhyme_timing": {
+    "bpm": 105,
+    "beat_sync": true,
+    "bar_length": 4
+  },
+  "save_depth_maps": false,
+  "border": "wrap"
+}
