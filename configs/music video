@@ -1,0 +1,14 @@
+{
+  "animation_mode": "2D",
+  "video_init_path": "12e33be41a854fa2a6f6a4a685345f9a.mp4",
+  "video_init_seed_behavior": "fixed",
+  "steps": 20,
+  "cfg_scale": 6.5,
+  "sampler": "Euler a",
+  "fps": 24,
+  "color_coherence": "Match Frame 0 LAB",
+  "prompt": "soft pencil sketch, hand-drawn animation, small town fields, boy and girl, black and white, gentle shading, subtle motion, romantic tone, beat-synced",
+  "strength": 0.45,
+  "output_resolution": "1920x1080",
+  "music_path": "your-audio-track.mp3"
+}
